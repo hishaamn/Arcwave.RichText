@@ -1,10 +1,10 @@
-﻿using Sitecore.Xml;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml;
-
-namespace Arcwave.RichText.Models
+﻿namespace Arcwave.RichText.Models
 {
+    using Sitecore.Xml;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Xml;
+
     public class RteMappingConfiguration
     {
         public List<RteMapping> MappingList { get; private set; }

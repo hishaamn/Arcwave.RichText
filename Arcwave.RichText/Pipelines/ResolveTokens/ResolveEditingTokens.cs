@@ -1,17 +1,17 @@
-﻿using Arcwave.RichText.Models;
-using System.Linq;
-using Microsoft.Extensions.DependencyInjection;
-using Sitecore.Data.Items;
-using Sitecore.DependencyInjection;
-using Sitecore.Security.Accounts;
-using Sitecore.XA.Foundation.Abstractions.Configuration;
-using Sitecore.XA.Foundation.Editing;
-using Sitecore.XA.Foundation.TokenResolution.Pipelines.ResolveTokens;
-using Sitecore;
-using Sitecore.Configuration;
-
-namespace Arcwave.RichText.Pipelines.ResolveTokens
+﻿namespace Arcwave.RichText.Pipelines.ResolveTokens
 {
+    using Arcwave.RichText.Models;
+    using System.Linq;
+    using Microsoft.Extensions.DependencyInjection;
+    using Sitecore.Data.Items;
+    using Sitecore.DependencyInjection;
+    using Sitecore.Security.Accounts;
+    using Sitecore.XA.Foundation.Abstractions.Configuration;
+    using Sitecore.XA.Foundation.Editing;
+    using Sitecore.XA.Foundation.TokenResolution.Pipelines.ResolveTokens;
+    using Sitecore;
+    using Sitecore.Configuration;
+
     public class ResolveEditingTokens : ResolveTokensProcessor
     {
         public string FieldDescription => "Description";
