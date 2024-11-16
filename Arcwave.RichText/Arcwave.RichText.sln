@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcwave.RichText", "Arcwave.RichText.csproj", "{CC77FCA3-CE8E-4609-BD63-2CDD47FD3408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC77FCA3-CE8E-4609-BD63-2CDD47FD3408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC77FCA3-CE8E-4609-BD63-2CDD47FD3408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC77FCA3-CE8E-4609-BD63-2CDD47FD3408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC77FCA3-CE8E-4609-BD63-2CDD47FD3408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19116625-A4A4-4C06-96BE-52C1920F7DD7}
+	EndGlobalSection
+EndGlobal
